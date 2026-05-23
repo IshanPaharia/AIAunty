@@ -60,10 +60,8 @@ function App() {
       {/* Main card container - Glassmorphism, smooth shadow, elegant borders */}
       <div className="w-full max-w-lg bg-white/95 rounded-[2rem] shadow-[0_20px_50px_-10px_rgba(120,12,30,0.06)] border border-[#eaddcd] overflow-hidden flex flex-col transition-all duration-300">
         
-        {/* Header section with Premium Royal Crimson & Saffron Accents */}
-        <header className="bg-gradient-to-r from-[#780c1e] via-[#9e1c31] to-[#b83146] p-6 text-white text-center shadow-md relative">
-          {/* Saffron & Gold double accent line */}
-          <div className="absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r from-[#eab308] via-[#f97316] to-[#eab308]"></div>
+        {/* Header section with Premium Royal Crimson */}
+        <header className="bg-gradient-to-r from-[#780c1e] via-[#9e1c31] to-[#b83146] p-6 text-white text-center shadow-md relative rounded-t-[1.9rem] overflow-hidden">
           
           <h1 className="font-serif text-3xl sm:text-4xl font-extrabold tracking-wide select-none drop-shadow-md text-[#fffbf2] flex items-center justify-center gap-2">
             AI Aunty <span className="animate-pulse drop-shadow-none">🧕</span>
